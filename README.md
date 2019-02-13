@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 python src/train.py 
 ```
-학습의 발전 단계, 최적화되는 파라미터 그리고 다양한 경우에서 얻은 품질 메트릭에 대한 정보를 보여줍니다. 이 단계는 models 폴더 아래 model.pickle 파일을 생성하며 작업을 마칩니다.
+저장소 루트에서 실행하세요. 학습 진행 상황, 파라미터 최적화를 위해 시도하는 값들, 각 경우 달성한 정량지표를 보여줍니다. 이 단계는 models 폴더 아래 model.pickle 파일을 생성하며 작업을 마칩니다.
 
 5. Flask app을 실행합니다.
 ```
